@@ -1,8 +1,8 @@
 # Tracking Software
 
-This matlab software tracks the position of A431 clusters migrationg on E-cadherin coated polyacrylamide gels. The software generates a file named `Tracks.mat`. Inside this file there is an matlab array. Each element of the array represents the position of a cluster. Inside each cluster there are 4 columns (Frame, x, y and Area). x, y and Area are given in pixels. 
+This matlab software tracks the position of A431 clusters migrating on E-cadherin coated polyacrylamide gels. The software generates a file named `Tracks.mat`. Inside this file there is an matlab array. Each element of the array represents the position of a cluster. Inside each cluster there are 4 columns (Frame, x, y and Area). x, y and Area are given in pixels. 
 
-Besides the tracking data, the software generates a folder named 'Tracking' with the images of the tracked clusters labeled with a number and its segmentation. These images will be used to discard those clusters with segmentation errors. 
+Besides the tracking data, the software generates a folder named `Tracking` with the images of the tracked clusters labeled with a number and its segmentation. These images will be used to discard those clusters with segmentation errors. 
 
 This software need the following libraries:
 
