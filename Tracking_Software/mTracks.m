@@ -7,7 +7,7 @@ clear all;
 clc;
 
 % Select folder were data is stored
-dirBase = 'C:\Users\raimo\OneDrive - IBEC\Cadherin stuff\Trial_software\';
+dirBase = 'your_data_folder\';
 
 % Set up folder where data will be stored
 if ~exist([dirBase,filesep,'TrackingFiles']), mkdir([dirBase,filesep,'TrackingFiles']); end
